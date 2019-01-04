@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maths Game</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="score">
+            Score:<span id="scorevalue">0</span>
+        </div>
+        <div id="correct">
+            Correct
+        </div>
+        <div id="wrong">
+            Try again
+        </div>
+        <div id="question">
+            7x4
+        </div>
+        <div id="instruction">
+            click on the correct answer
+        </div>
+        <div id="choice">
+            <div id="box1" class="box">8</div>
+            <div id="box2" class="box">5</div>
+            <div id="box3" class="box">2</div>
+            <div id="box4" class="box">3</div>
+        </div>
+    </div>
+
+</body>
+
+</html>
