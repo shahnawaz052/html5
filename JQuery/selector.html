@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JQuery Selector</title>
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+       $(document).ready(function(){
+           $('#content').css('background-color','green');
+           $('#content').css('color','white');
+           $('#header1').css('color','blue');
+           // alert
+           alert($('#summary').html());
+           
+       });
+    </script>
+</head>
+<body>
+    <h2 id="header1">My JQuery enable page.</h2>
+    <div id="summary">Selector summary</div>
+    <div id="content">
+        <ul>
+            <li>Selectors allow page elements to be selected</li>
+            <li>Single or multiple elements are supported</li>
+            <li>A selector identifies an HTML element/tag that you will manupulate with JQuery code</li>
+        </ul>
+    </div>
+</body>
+</html>
